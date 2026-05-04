@@ -1,0 +1,23 @@
+{
+  "resources": [
+    {
+      "name": "api_handler_role",
+      "resource_type": "iam_role",
+      "role_arn": "arn:aws:iam::791068988330:role/weather-api-dev-api_handler",
+      "role_name": "weather-api-dev-api_handler"
+    },
+    {
+      "name": "api_handler",
+      "resource_type": "lambda_function",
+      "lambda_arn": "arn:aws:lambda:us-east-1:791068988330:function:weather-api-dev"
+    },
+    {
+      "name": "rest_api",
+      "resource_type": "rest_api",
+      "rest_api_id": "ucpymhly5h",
+      "rest_api_url": "https://ucpymhly5h.execute-api.us-east-1.amazonaws.com/api/"
+    }
+  ],
+  "schema_version": "2.0",
+  "backend": "api"
+}
